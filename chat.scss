@@ -1,0 +1,22 @@
+nav {
+   width: 400px;
+   display: flex;
+   button {
+      display: flex;
+      flex-direction: column;
+      background: #16375e;
+      border: none;
+      align-items: center;
+      padding: 12px;
+      &.active {
+         border-top: 1px solid cyan;
+      }
+      span, i {
+         color: white;
+         font-size: 16px;
+      }
+      span {
+         margin-top: 10px;
+      }
+   }
+}

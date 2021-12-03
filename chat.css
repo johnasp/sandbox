@@ -1,0 +1,36 @@
+nav {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #16375e;
+  border: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+}
+
+nav button.active {
+  border-top: 1px solid cyan;
+}
+
+nav button span, nav button i {
+  color: white;
+  font-size: 16px;
+}
+
+nav button span {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=chat.css.map */
